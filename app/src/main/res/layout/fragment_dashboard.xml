@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1"
+    android:gravity="center"
+    android:padding="@dimen/dashboardfragment_tablelayout_padding"
+    tools:context=".ui.MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/imageButtonInventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_inventory"
+            android:contentDescription="@string/imageButtonInventory"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonDependency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_dependency"
+            android:contentDescription="@string/imageButtonDependency"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View android:layout_height="@dimen/dashboardfragment_view_layout_height"
+            android:layout_width="@dimen/dashboardfragment_view_layout_width"
+            android:layout_span="2">
+
+        </View>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/imageButtonSections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_sections"
+            android:contentDescription="@string/imageButtonSections"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonProductos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_productos"
+            android:contentDescription="@string/imageButtonProducts"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View android:layout_height="@dimen/dashboardfragment_view_layout_height"
+            android:layout_width="@dimen/dashboardfragment_view_layout_width"
+            android:layout_span="2">
+
+        </View>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@+id/imageButtonAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_aboutus"
+            android:contentDescription="@string/imageButtonAboutUs"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_settings"
+            android:contentDescription="@string/imageButtonSettings"/>
+
+    </TableRow>
+
+
+</TableLayout>

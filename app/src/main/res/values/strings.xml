@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="tvLogin_login">Login</string>
+    <string name="tieUser">Nombre de usuario </string>
+    <string name="tiePassword">Contraseña</string>
+    <string name="chkRemember">Recuerdame</string>
+    <string name="btSignUp_text">Registrar</string>
+    <string name="btSignIn_text">Login</string>
+    <string name="tvLogin_text">Iniciar sesion con otras plataformas</string>
+    <string name="tvTitleSignUp">Registro</string>
+    <string name="SignUp_tieUser_hint">Nombre de usuario</string>
+    <string name="SignUp_tieEmail_hint">Introduce tu email</string>
+    <string name="SignUp_tiePassword_hint">Introduce contraseña</string>
+    <string name="SignUp_tieConfirmPassword_hint">Confirma tu contraseña</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="imageButtonInventory">Imagen de un inventario</string>
+    <string name="imageButtonDependency">Imagen de una dependencia</string>
+    <string name="imageButtonSections">Imagen de una seccion</string>
+    <string name="imageButtonProducts">Imagen de un producto</string>
+    <string name="imageButtonAboutUs">Imagen de un about us</string>
+    <string name="imageButtonSettings">Imagen para la configuracion</string>
+    <string name="aboutusfragment_label">About Us</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvActivated_text">"Fecha Activo: "</string>
+    <string name="tvCreated_text">"Fecha Creacion: "</string>
+    <string name="tvEnded_text">Fecha fin: </string>
+    <string name="tvEdit_text">Modificar Inventario</string>
+    <string name="btOk">OK</string>
+    <string name="edEnded_contentDescription">Debes introducir una fecha de fin</string>
+    <string name="edCreated_contentDescription">Debes introducir una fecha de creacion</string>
+    <string name="edActivated_contentDescription">Debes introducir una fecha de activacion</string>
+    <string name="action_aboutus">Sobre Nosotros</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_order_dependency">Ordenar Dependencias</string>
+
+
+    <string name="title_delete_dependency">Eliminar Dependencias</string>
+    <string name="message_delete_dependency">¿Quiere eliminar la dependencias %1$s  ?</string>
+    <string name="comfirm_delete_dependency">Se ha eliminado la dependencia: %1$s</string>
+    <string name="action_order_bydescription">Ordenar por descripcion</string>
+    <string name="undo">UNDO</string>
+    <string name="fdmanage_tieName_hint">Nombre</string>
+    <string name="fdmanage_tieShortName_hint">Nombre corto</string>
+    <string name="fdmanage_tieDescription_hint">Descripcion</string>
+    <string name="fdmanage_tieImage_hint">Imagen</string>
+    <string name="fdmanage_btGuardar_text">Guardar</string>
+    <string name="titleEditDependency">Editar dependencia</string>
+    <string name="name_channel">Inventory_Channel</string>
+    <string name="notification_title_add_dependency">Se ha creado una dependencia</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="dependency_header">Dependencias</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="depdendency_title">Sincronizar dependencias periodicamente</string>
+    <string name="dependency_image_title">Descargar imagenes de las dependencias</string>
+    <string name="dependency_image_summary_on">Automaticamente descargas las imagenes de las dependencias
+    </string>
+    <string name="dependency_image_summary_off">Solo descargar imagenes de dependencias de forma manual</string>
+    <string name="key_account">account</string>
+    <string name="title_account">Cuenta</string>
+    <string name="summary_account">Privacidad, cambiar numero, seguridad</string>
+    <string name="notification_header">Notificaciones</string>
+    <string name="help_header">Ayuda</string>
+    <string name="help_point">Centro de ayuda</string>
+    <string name="privacy_and_condition">Condiciones y privacidad</string>
+    <string name="notification">Notificaciones</string>
+    <string name="notification_summary">Activar las notificaciones de nuestra aplicacio</string>
+    <string name="title_ringtone">Sonido de la notificacion</string>
+    <string name="summary_ringtone">Seleccionar el tono de las notificaciones</string>
+    <string name="key_ringtone">Sonido</string>
+    <string name="key_user">user</string>
+    <string name="title_user">Usuario</string>
+    <string name="key_password">password</string>
+    <string name="title_password">Contraseña</string>
+    <string name="key_help">ayuda</string>
+    <string name="tvUser">Pablo Infantes Sosa</string>
+    <string name="tvEmail">pabloinfantes@gmail.com</string>
+    <string name="action_inventory">Inventario</string>
+    <string name="action_dependency">Dependencia</string>
+    <string name="action_sections">Secciones</string>
+    <string name="action_products">Productos</string>
+    <string name="menu_options">Opciones</string>
+
+
+</resources>

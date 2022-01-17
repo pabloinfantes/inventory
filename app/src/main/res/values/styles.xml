@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="InventoryTextHintApparience">
+        <item name="boxBackgroundMode">filled</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/shape_textinputlayout</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- La herencia se puede establecer con punto no tienes pq poner la palabra parent-->
+    <style name="InventoryTextHintApparience.SignUp">
+        <item name="android:background">@null</item>
+    </style>
+
+
+
+</resources>
