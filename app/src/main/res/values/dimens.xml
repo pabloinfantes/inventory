@@ -24,4 +24,8 @@
     <dimen name="dependency_item_textSize">24sp</dimen>
     <dimen name="dependency_item_paddingBottom">7dp</dimen>
     <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="section_item_textSize">24sp</dimen>
+    <dimen name="section_item_margim_bottom">5dp</dimen>
+    <dimen name="section_item_paddin">5dp</dimen>
+    <dimen name="section_item_paddingBottom">7dp</dimen>
 </resources>

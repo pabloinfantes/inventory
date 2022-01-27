@@ -90,8 +90,6 @@ public class FragmentDependencyManage extends Fragment implements DependencyMana
             public void onClick(View view) {
                 presenter.edit(getDependency());
             }
-
-
         });
     }
 
@@ -108,6 +106,9 @@ public class FragmentDependencyManage extends Fragment implements DependencyMana
 
     private Dependency getDependency() {
         Dependency dependency = new Dependency();
+        if (FragmentDependencyManageArgs.fromBundle(getArguments()).getDependency() !=null)
+            dependency.setId(FragmentDependencyManageArgs.fromBundle(getArguments()).getDependency().getId());
+
         dependency.setShortname(binding.tieShortName.getText().toString());
         dependency.setName(binding.tieName.getText().toString());
         dependency.setDescription(binding.tieDescription.getText().toString());

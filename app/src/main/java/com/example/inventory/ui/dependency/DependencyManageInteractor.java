@@ -4,10 +4,8 @@ import android.text.TextUtils;
 
 import com.example.inventory.data.model.Dependency;
 import com.example.inventory.data.repository.DependencyRepository;
-import com.example.inventory.data.repository.LoginRepositoryImpl;
+import com.example.inventory.data.repository.DependencyRepositoryStatic;
 import com.example.inventory.ui.base.OnRepositoryCallback;
-import com.example.inventory.ui.login.LoginInteractor;
-import com.example.inventory.utils.CommonUtils;
 
 public class DependencyManageInteractor implements OnRepositoryCallback {
 

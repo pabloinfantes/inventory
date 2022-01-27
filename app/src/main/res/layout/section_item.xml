@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/InventoryTextHintApparience"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LinearLayout_SectionItem"
+    android:layout_marginBottom="@dimen/section_item_paddingBottom"
+    android:padding="@dimen/section_item_paddin">
+
+
+    <ImageView
+        android:id="@+id/iconSection"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_logo"></ImageView>
+
+    <TextView
+        android:id="@+id/tvNameSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/section_item_margim_bottom"
+        android:layout_marginLeft="@dimen/section_item_paddin"
+        android:layout_marginBottom="@dimen/section_item_margim_bottom"
+        android:text="TextView"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</LinearLayout>
